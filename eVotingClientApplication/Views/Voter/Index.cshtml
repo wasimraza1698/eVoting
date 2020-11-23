@@ -1,0 +1,9 @@
+﻿@using Microsoft.AspNetCore.Razor.Language.Intermediate
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Welcome Voter</h1>
+@Html.ActionLink("Vote","Contenders","Voter",null,new {@class="btn btn-primary"})
+

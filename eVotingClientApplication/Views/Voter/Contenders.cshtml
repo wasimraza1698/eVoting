@@ -1,0 +1,38 @@
+﻿@model IEnumerable<eVotingClientApplication.Models.Contender>
+
+@{
+    ViewData["Title"] = "Contenders";
+}
+
+<h1>Contenders</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ContenderID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ContenderName)
+            </th>
+            <th>
+                Select
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContenderID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ContenderName)
+            </td>
+            <td>
+                <a class="btn btn-primary" href="@Url.Action("Vote","Voter",new { id = item.ContenderID })">Vote</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

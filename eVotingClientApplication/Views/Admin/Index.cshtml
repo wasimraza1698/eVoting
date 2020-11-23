@@ -1,0 +1,11 @@
+﻿@using Microsoft.AspNetCore.Razor.Language.Intermediate
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <h1 class="display-3">Welcome Admin</h1>
+    @Html.ActionLink("Add Contender","AddContender","Admin",null,new {@class="btn btn-primary"})
+</div>
+

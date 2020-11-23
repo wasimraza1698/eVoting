@@ -1,0 +1,36 @@
+﻿@using Microsoft.AspNetCore.Http
+@model eVotingClientApplication.Models.Vote
+
+@{
+    ViewData["Title"] = "Vote";
+}
+
+<h1>Vote</h1>
+
+<h4>Vote</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Vote">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="VoterID" class="control-label"></label>
+                <input asp-for="VoterID" class="form-control" value="@ViewBag.VoterID" disabled=""/>
+                <span asp-validation-for="VoterID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ContenderID" class="control-label"></label>
+                <input asp-for="ContenderID" class="form-control" value="@ViewBag.ContenderID" disabled/>
+                <span asp-validation-for="ContenderID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Vote" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

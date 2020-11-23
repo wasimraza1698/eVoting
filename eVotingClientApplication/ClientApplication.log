@@ -1,0 +1,581 @@
+﻿INFO  07:53:54 Application started. Press Ctrl+C to shut down.
+INFO  07:53:54 Application started. Press Ctrl+C to shut down.
+INFO  07:53:54 Hosting environment: Development
+INFO  07:53:54 Hosting environment: Development
+INFO  07:53:54 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:53:54 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+ERROR 07:54:24 The view 'Index' was not found. Searched locations: /Views/Login/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 07:54:24 The view 'Index' was not found. Searched locations: /Views/Login/Index.cshtml, /Views/Shared/Index.cshtml
+ERROR 07:54:26 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Login/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:54:26 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The view 'Index' was not found. The following locations were searched:
+/Views/Login/Index.cshtml
+/Views/Shared/Index.cshtml
+   at Microsoft.AspNetCore.Mvc.ViewEngines.ViewEngineResult.EnsureSuccessful(IEnumerable`1 originalLocations)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  07:54:57 User Login
+INFO  07:58:37 Application started. Press Ctrl+C to shut down.
+INFO  07:58:37 Application started. Press Ctrl+C to shut down.
+INFO  07:58:37 Hosting environment: Development
+INFO  07:58:37 Hosting environment: Development
+INFO  07:58:37 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:58:37 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:58:58 User Login
+INFO  08:08:07 Application started. Press Ctrl+C to shut down.
+INFO  08:08:07 Application started. Press Ctrl+C to shut down.
+INFO  08:08:07 Hosting environment: Development
+INFO  08:08:07 Hosting environment: Development
+INFO  08:08:07 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:08:07 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:08:37 User Login
+INFO  08:14:02 Application started. Press Ctrl+C to shut down.
+INFO  08:14:02 Application started. Press Ctrl+C to shut down.
+INFO  08:14:02 Hosting environment: Development
+INFO  08:14:02 Hosting environment: Development
+INFO  08:14:02 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:14:02 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:20:00 Application started. Press Ctrl+C to shut down.
+INFO  08:20:00 Application started. Press Ctrl+C to shut down.
+INFO  08:20:00 Hosting environment: Development
+INFO  08:20:00 Hosting environment: Development
+INFO  08:20:00 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:20:00 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:20:22 User Login
+INFO  08:20:38 User Login
+INFO  08:23:26 Application started. Press Ctrl+C to shut down.
+INFO  08:23:26 Application started. Press Ctrl+C to shut down.
+INFO  08:23:26 Hosting environment: Development
+INFO  08:23:26 Hosting environment: Development
+INFO  08:23:26 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:23:26 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:23:35 User Login
+INFO  08:58:46 Application started. Press Ctrl+C to shut down.
+INFO  08:58:46 Application started. Press Ctrl+C to shut down.
+INFO  08:58:46 Hosting environment: Development
+INFO  08:58:46 Hosting environment: Development
+INFO  08:58:46 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:58:46 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  08:59:10 User Login
+INFO  08:59:12 Again User Login
+INFO  09:59:33 Application started. Press Ctrl+C to shut down.
+INFO  09:59:34 Application started. Press Ctrl+C to shut down.
+INFO  09:59:34 Hosting environment: Development
+INFO  09:59:34 Hosting environment: Development
+INFO  09:59:34 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  09:59:34 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  10:00:10 User Login
+INFO  10:00:17 System.Net.Http.HttpConnectionResponseContent
+INFO  10:00:17 Again User Login
+INFO  10:33:55 Application started. Press Ctrl+C to shut down.
+INFO  10:33:55 Application started. Press Ctrl+C to shut down.
+INFO  10:33:55 Hosting environment: Development
+INFO  10:33:55 Hosting environment: Development
+INFO  10:33:55 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  10:33:55 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  10:37:56 Application started. Press Ctrl+C to shut down.
+INFO  10:37:56 Application started. Press Ctrl+C to shut down.
+INFO  10:37:56 Hosting environment: Development
+INFO  10:37:56 Hosting environment: Development
+INFO  10:37:56 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  10:37:56 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  10:38:13 User Login
+INFO  10:38:15 
+INFO  10:38:15 Again User Login
+INFO  11:30:33 Application started. Press Ctrl+C to shut down.
+INFO  11:30:33 Application started. Press Ctrl+C to shut down.
+INFO  11:30:33 Hosting environment: Development
+INFO  11:30:33 Hosting environment: Development
+INFO  11:30:33 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  11:30:33 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  11:31:26 User Login
+INFO  11:31:31 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwMjY2OTAsImlzcyI6Ildhc2ltIn0.cVPNXUExZptodPmlYJQ43xKwiQ_IUM9v9Kp5D6vS7M8"}
+INFO  11:31:31 into Admin
+ERROR 11:31:46 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Microsoft.AspNetCore.Http.SessionExtensions.SetString(ISession session, String key, String value)
+   at eVotingClientApplication.Controllers.UserController.Login(User user) in C:\Users\wasim\source\repos\eVotingClientApplication\Controllers\UserController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:31:46 An unhandled exception has occurred while executing the request.
+System.ArgumentNullException: String reference not set to an instance of a String. (Parameter 's')
+   at System.Text.Encoding.GetBytes(String s)
+   at Microsoft.AspNetCore.Http.SessionExtensions.SetString(ISession session, String key, String value)
+   at eVotingClientApplication.Controllers.UserController.Login(User user) in C:\Users\wasim\source\repos\eVotingClientApplication\Controllers\UserController.cs:line 53
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:39:18 Application started. Press Ctrl+C to shut down.
+INFO  11:39:18 Application started. Press Ctrl+C to shut down.
+INFO  11:39:18 Hosting environment: Development
+INFO  11:39:18 Hosting environment: Development
+INFO  11:39:18 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  11:39:18 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  11:39:31 User Login
+INFO  11:39:33 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwMjcxNzMsImlzcyI6Ildhc2ltIn0.2kZh9UF47rJRbiAQ7ZS4PIydGGZ5vX_55qOmYSR0E4M"}
+INFO  11:39:33 into Admin
+INFO  11:39:34 token not found
+INFO  11:42:10 Application started. Press Ctrl+C to shut down.
+INFO  11:42:10 Application started. Press Ctrl+C to shut down.
+INFO  11:42:10 Hosting environment: Development
+INFO  11:42:10 Hosting environment: Development
+INFO  11:42:10 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  11:42:10 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  11:42:19 User Login
+INFO  11:42:20 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwMjczNDAsImlzcyI6Ildhc2ltIn0.E4lPVhIvi5ClySDzoKj0L3qlvgGzP-Z3CQLolGm2RM0"}
+INFO  11:42:20 into Admin
+INFO  11:42:20 Admin Page
+INFO  11:42:26 Add Contender Page
+INFO  11:42:45 Adding Contender in progress
+INFO  11:42:45 Admin Page
+INFO  11:42:52 Add Contender Page
+INFO  12:18:56 Application started. Press Ctrl+C to shut down.
+INFO  12:18:57 Application started. Press Ctrl+C to shut down.
+INFO  12:18:57 Hosting environment: Development
+INFO  12:18:57 Hosting environment: Development
+INFO  12:18:57 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:18:57 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:19:40 User Login
+INFO  12:19:42 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwMjk1ODIsImlzcyI6Ildhc2ltIn0.VxNIDDvcysaHtB6E6fEe0aohT-AAv26DBfh2Udr5iSM"}
+INFO  12:19:42 into Admin
+INFO  12:19:42 Admin Page
+INFO  12:19:46 Add Contender Page
+INFO  12:20:02 Adding Contender in progress
+INFO  12:22:10 Application started. Press Ctrl+C to shut down.
+INFO  12:22:10 Application started. Press Ctrl+C to shut down.
+INFO  12:22:10 Hosting environment: Development
+INFO  12:22:10 Hosting environment: Development
+INFO  12:22:10 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:22:10 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:27:13 User Login
+INFO  12:27:15 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwMzAwMzUsImlzcyI6Ildhc2ltIn0.sex_yauDYc1bzdgxP4QzxVokBsZeqbKfS5bF7E7GpoI"}
+INFO  12:27:15 into Admin
+INFO  12:27:15 Admin Page
+INFO  12:27:16 Add Contender Page
+INFO  12:27:22 Adding Contender in progress
+INFO  04:15:24 Application started. Press Ctrl+C to shut down.
+INFO  04:15:24 Application started. Press Ctrl+C to shut down.
+INFO  04:15:24 Hosting environment: Development
+INFO  04:15:24 Hosting environment: Development
+INFO  04:15:24 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  04:15:24 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  04:15:33 User Login
+INFO  04:15:41 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNDM3NDAsImlzcyI6Ildhc2ltIn0.JMATwV9zUxVlAKFie87nUf1dInu5uDREqzIhwsl_XUc"}
+INFO  04:15:41 into Admin
+INFO  04:15:41 Admin Page
+INFO  04:15:48 Add Contender Page
+INFO  04:15:53 Adding Contender in progressRaza
+INFO  04:22:22 Application started. Press Ctrl+C to shut down.
+INFO  04:22:22 Application started. Press Ctrl+C to shut down.
+INFO  04:22:22 Hosting environment: Development
+INFO  04:22:22 Hosting environment: Development
+INFO  04:22:22 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  04:22:22 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  04:22:28 User Login
+INFO  04:22:30 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNDQxNTAsImlzcyI6Ildhc2ltIn0.mjOwzXJ43R-9BJN2pzgY0knFN7lg4whg0dLfhJpsK88"}
+INFO  04:22:30 into Admin
+INFO  04:22:31 Admin Page
+INFO  04:22:33 Add Contender Page
+INFO  04:22:40 Adding Contender in progressRaza
+INFO  12:45:22 Application started. Press Ctrl+C to shut down.
+INFO  12:45:23 Application started. Press Ctrl+C to shut down.
+INFO  12:45:23 Hosting environment: Development
+INFO  12:45:23 Hosting environment: Development
+INFO  12:45:23 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:45:23 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:45:50 User Login
+INFO  12:46:00 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNzQzNTksImlzcyI6Ildhc2ltIn0.A5OCQbhwaVANH8v6E6e5lHGgxtAIoYXbBzdCS6-2_BY"}
+INFO  12:46:00 into Admin
+INFO  12:46:01 Admin Page
+INFO  12:46:05 Add Contender Page
+INFO  12:47:18 Adding Contender in progressMessi
+ERROR 12:47:24 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at eVotingClientApplication.Controllers.AdminController.AddContender(Contender contender) in C:\Users\wasim\source\repos\eVotingClientApplication\Controllers\AdminController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 12:47:24 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at eVotingClientApplication.Controllers.AdminController.AddContender(Contender contender) in C:\Users\wasim\source\repos\eVotingClientApplication\Controllers\AdminController.cs:line 70
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  12:50:15 Application started. Press Ctrl+C to shut down.
+INFO  12:50:15 Application started. Press Ctrl+C to shut down.
+INFO  12:50:15 Hosting environment: Development
+INFO  12:50:15 Hosting environment: Development
+INFO  12:50:15 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:50:15 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:50:39 User Login
+INFO  12:50:40 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNzQ2NDAsImlzcyI6Ildhc2ltIn0.diPfvUl7m6Die_NZJz6DxZY1q43ZeKKiD0FgnOdlRxE"}
+INFO  12:50:40 Voting Page
+INFO  12:50:47 Vote Page
+INFO  12:50:55 Adding Contender in progress
+INFO  12:55:17 Application started. Press Ctrl+C to shut down.
+INFO  12:55:17 Application started. Press Ctrl+C to shut down.
+INFO  12:55:17 Hosting environment: Development
+INFO  12:55:17 Hosting environment: Development
+INFO  12:55:17 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:55:17 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  12:55:29 User Login
+INFO  12:55:31 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNzQ5MzEsImlzcyI6Ildhc2ltIn0.IhH4IiYcoJv-RX5BHTRY-dhiAOmUyQcyyV56PeKBvzQ"}
+INFO  12:55:32 Voting Page
+INFO  12:55:36 Vote Page
+INFO  12:55:52 Adding Contender in progress
+INFO  01:01:17 Application started. Press Ctrl+C to shut down.
+INFO  01:01:17 Application started. Press Ctrl+C to shut down.
+INFO  01:01:17 Hosting environment: Development
+INFO  01:01:17 Hosting environment: Development
+INFO  01:01:17 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:01:17 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:01:25 User Login
+INFO  01:01:26 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNzUyODYsImlzcyI6Ildhc2ltIn0.iNpGshKJA9yQcdoZ5TR-fakPx15bzFs25pUNWG0UkOk"}
+INFO  01:01:26 Voting Page
+INFO  01:01:30 Vote Page
+INFO  01:01:34 Adding Contender in progress
+INFO  01:01:35 
+INFO  01:01:35 Vote Page
+INFO  01:15:00 Application started. Press Ctrl+C to shut down.
+INFO  01:15:00 Application started. Press Ctrl+C to shut down.
+INFO  01:15:00 Hosting environment: Development
+INFO  01:15:00 Hosting environment: Development
+INFO  01:15:00 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:15:00 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:15:09 User Login
+INFO  01:15:10 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNzYxMTAsImlzcyI6Ildhc2ltIn0.5iZhhvgGM4TUcCsdlRRD1d1j4-qG8-NTawH1AKzoWn4"}
+INFO  01:15:10 Voting Page
+INFO  01:15:12 Vote Page
+INFO  01:15:19 Adding Contender in progress
+INFO  01:15:20 StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Sun, 22 Nov 2020 19:45:20 GMT
+}
+INFO  01:15:20 
+INFO  01:15:20 Vote Page
+INFO  01:34:36 Application started. Press Ctrl+C to shut down.
+INFO  01:34:36 Application started. Press Ctrl+C to shut down.
+INFO  01:34:36 Hosting environment: Development
+INFO  01:34:36 Hosting environment: Development
+INFO  01:34:36 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:34:36 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:34:45 User Login
+INFO  01:34:46 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNzcyODYsImlzcyI6Ildhc2ltIn0.JhAhNk7DabUQbUTzXVK5oHwFRVC2fuyht_NYDDrI1dY"}
+INFO  01:34:47 Voting Page
+INFO  01:34:51 Vote Page
+INFO  01:35:02 Adding Contender in progress
+INFO  01:35:06 StatusCode: 201, ReasonPhrase: 'Created', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Location: https://localhost:44327/Vote/Add?id=4
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Sun, 22 Nov 2020 20:05:06 GMT
+  Content-Type: application/json; charset=utf-8
+}
+INFO  01:35:06 {"voteID":4,"voterID":1,"contenderID":2}
+INFO  01:35:06 Vote Page
+INFO  01:43:24 Application started. Press Ctrl+C to shut down.
+INFO  01:43:24 Application started. Press Ctrl+C to shut down.
+INFO  01:43:24 Hosting environment: Development
+INFO  01:43:24 Hosting environment: Development
+INFO  01:43:24 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:43:24 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:43:36 User Login
+INFO  01:43:39 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNzc4MTksImlzcyI6Ildhc2ltIn0.15i3OaGVb1fM7aI7IhgIWMQpnNCjnI1uX5dICULjXdA"}
+INFO  01:43:39 into Admin
+INFO  01:43:40 Admin Page
+INFO  01:43:43 Add Contender Page
+INFO  01:43:49 Adding Contender in progressMessi
+INFO  01:46:32 Application started. Press Ctrl+C to shut down.
+INFO  01:46:32 Application started. Press Ctrl+C to shut down.
+INFO  01:46:32 Hosting environment: Development
+INFO  01:46:32 Hosting environment: Development
+INFO  01:46:32 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:46:32 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:46:47 User Login
+INFO  01:46:49 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNzgwMDksImlzcyI6Ildhc2ltIn0.rZXr4GGvKbuSRIc0QCmCwIKLgWQNrEadah9DddacrQQ"}
+INFO  01:46:49 into Admin
+INFO  01:46:50 Admin Page
+INFO  01:46:52 Add Contender Page
+INFO  01:46:56 Adding Contender in progressMessi
+INFO  01:46:57 Contender with Name - Messi Added
+INFO  01:46:58 Admin Page
+INFO  01:52:23 Application started. Press Ctrl+C to shut down.
+INFO  01:52:23 Application started. Press Ctrl+C to shut down.
+INFO  01:52:23 Hosting environment: Development
+INFO  01:52:23 Hosting environment: Development
+INFO  01:52:23 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:52:23 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  01:52:32 User Login
+INFO  01:52:39 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwNzgzNTgsImlzcyI6Ildhc2ltIn0.4lu3d9pPCIx7GwlUjFq76obbLA3IS5x4O1umbDEGmsA"}
+INFO  01:52:39 into Admin
+INFO  01:52:39 Admin Page
+INFO  01:52:42 Add Contender Page
+INFO  01:52:47 Adding Contender in progressRaza
+INFO  01:52:49 Contender with Name - Raza Added
+INFO  01:52:49 Admin Page
+INFO  02:29:05 Application started. Press Ctrl+C to shut down.
+INFO  02:29:05 Application started. Press Ctrl+C to shut down.
+INFO  02:29:05 Hosting environment: Development
+INFO  02:29:05 Hosting environment: Development
+INFO  02:29:05 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  02:29:05 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  02:29:15 User Login
+INFO  02:29:21 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwODA1NjEsImlzcyI6Ildhc2ltIn0.ksMxj1teq_d6yJDCh7pJ2d9wiu4AKJntzMQ32niZ1QM"}
+INFO  02:29:21 into Admin
+INFO  02:29:22 Admin Page
+INFO  02:29:27 Add Contender Page
+INFO  02:29:58 Adding Contender in progressDe Bruyne
+INFO  02:29:59 Contender with Name - De Bruyne Added
+INFO  02:29:59 Admin Page
+INFO  07:21:58 Application started. Press Ctrl+C to shut down.
+INFO  07:21:58 Application started. Press Ctrl+C to shut down.
+INFO  07:21:58 Hosting environment: Development
+INFO  07:21:58 Hosting environment: Development
+INFO  07:21:58 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:21:58 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:22:13 User Login
+INFO  07:22:26 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwOTgxNDYsImlzcyI6Ildhc2ltIn0.0Rpra8v5rVJAqr0ix1TvXm72rQrG-pf_eKQrgA2oVlA"}
+INFO  07:22:26 into Admin
+INFO  07:22:27 Admin Page
+INFO  07:22:33 Add Contender Page
+INFO  07:24:49 Application started. Press Ctrl+C to shut down.
+INFO  07:24:49 Application started. Press Ctrl+C to shut down.
+INFO  07:24:49 Hosting environment: Development
+INFO  07:24:49 Hosting environment: Development
+INFO  07:24:49 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:24:49 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:25:14 User Login
+INFO  07:25:17 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwOTgzMTcsImlzcyI6Ildhc2ltIn0.80P87f8rd2BeXKfMPJgtDyYAVCfuCzBwRU_wvzfP2eo"}
+INFO  07:25:17 Voting Page
+INFO  07:25:20 Contenders Page
+ERROR 07:25:27 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at eVotingClientApplication.Controllers.VoterController.Contenders() in C:\Users\wasim\source\repos\eVotingClientApplication\Controllers\VoterController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:25:27 An unhandled exception has occurred while executing the request.
+System.Net.Http.HttpRequestException: No connection could be made because the target machine actively refused it.
+ ---> System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it.
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.ConnectHelper.ConnectAsync(String host, Int32 port, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean allowHttp2, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.GetHttpConnectionAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithRetryAsync(HttpRequestMessage request, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.DiagnosticsHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.FinishSendAsyncBuffered(Task`1 sendTask, HttpRequestMessage request, CancellationTokenSource cts, Boolean disposeCts)
+   at eVotingClientApplication.Controllers.VoterController.Contenders() in C:\Users\wasim\source\repos\eVotingClientApplication\Controllers\VoterController.cs:line 51
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  07:26:03 Contenders Page
+INFO  07:26:50 Vote Page
+INFO  07:27:09 Vote Page
+INFO  07:31:59 Application started. Press Ctrl+C to shut down.
+INFO  07:31:59 Application started. Press Ctrl+C to shut down.
+INFO  07:31:59 Hosting environment: Development
+INFO  07:31:59 Hosting environment: Development
+INFO  07:31:59 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:31:59 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:32:23 User Login
+INFO  07:32:25 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwOTg3NDUsImlzcyI6Ildhc2ltIn0.NEyYprs0XiagyQcT8uOqObzFA0cvOVrdzmod0Ff-2jI"}
+INFO  07:32:25 Voting Page
+INFO  07:32:30 Contenders Page
+INFO  07:32:34 Vote Page
+INFO  07:34:45 Application started. Press Ctrl+C to shut down.
+INFO  07:34:45 Application started. Press Ctrl+C to shut down.
+INFO  07:34:45 Hosting environment: Development
+INFO  07:34:45 Hosting environment: Development
+INFO  07:34:45 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:34:45 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:34:51 User Login
+INFO  07:34:52 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwOTg4OTIsImlzcyI6Ildhc2ltIn0.u0iLrHfuUPPzFRvWV7H69KcJInC5BzI82waNCr2HVvQ"}
+INFO  07:34:52 Voting Page
+INFO  07:34:54 Contenders Page
+INFO  07:34:56 Vote Page
+INFO  07:35:13 Vote Page
+INFO  07:35:18 Vote Page
+INFO  07:36:58 Application started. Press Ctrl+C to shut down.
+INFO  07:36:58 Application started. Press Ctrl+C to shut down.
+INFO  07:36:58 Hosting environment: Development
+INFO  07:36:58 Hosting environment: Development
+INFO  07:36:58 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:36:58 Content root path: C:\Users\wasim\source\repos\eVotingClientApplication
+INFO  07:37:06 User Login
+INFO  07:37:07 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYwOTkwMjcsImlzcyI6Ildhc2ltIn0.n-bk9zdjjdpEDu8V_UwlbHI4NP3Po8uWq19Lyd6TeU0"}
+INFO  07:37:07 Voting Page
+INFO  07:37:09 Contenders Page
+INFO  07:37:12 Vote Page
+INFO  07:37:16 Vote Page
+INFO  07:37:21 Vote Page
+INFO  07:37:24 Voting in progress
+INFO  07:37:29 StatusCode: 201, ReasonPhrase: 'Created', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Location: https://localhost:44327/Vote/Add?id=5
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Mon, 23 Nov 2020 02:07:29 GMT
+  Content-Type: application/json; charset=utf-8
+}
+INFO  07:37:29 {"voteID":5,"voterID":0,"contenderID":0}
+INFO  07:37:29 Vote Page

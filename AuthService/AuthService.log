@@ -1,0 +1,402 @@
+﻿INFO  05:53:58 Application started. Press Ctrl+C to shut down.
+INFO  05:53:58 Application started. Press Ctrl+C to shut down.
+INFO  05:53:58 Hosting environment: Development
+INFO  05:53:58 Hosting environment: Development
+INFO  05:53:58 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  05:53:58 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  05:54:36 Authentication initiated for UserId 1
+INFO  05:54:41 Token Generation initiated for UserId 1
+INFO  07:46:43 Application started. Press Ctrl+C to shut down.
+INFO  07:46:43 Application started. Press Ctrl+C to shut down.
+INFO  07:46:43 Hosting environment: Development
+INFO  07:46:43 Hosting environment: Development
+INFO  07:46:43 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  07:46:43 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  08:50:31 Authentication initiated for UserId 3
+INFO  08:50:35 Token Generation initiated for UserId 3
+INFO  10:27:27 Application started. Press Ctrl+C to shut down.
+INFO  10:27:27 Application started. Press Ctrl+C to shut down.
+INFO  10:27:27 Hosting environment: Development
+INFO  10:27:27 Hosting environment: Development
+INFO  10:27:27 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  10:27:27 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 10:40:47 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:40:47 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:43:03 Application started. Press Ctrl+C to shut down.
+INFO  10:43:03 Application started. Press Ctrl+C to shut down.
+INFO  10:43:03 Hosting environment: Development
+INFO  10:43:03 Hosting environment: Development
+INFO  10:43:03 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  10:43:03 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 10:43:04 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:43:04 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:49:39 Application started. Press Ctrl+C to shut down.
+INFO  10:49:39 Application started. Press Ctrl+C to shut down.
+INFO  10:49:39 Hosting environment: Development
+INFO  10:49:39 Hosting environment: Development
+INFO  10:49:39 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  10:49:39 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 10:49:40 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:49:40 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  10:52:55 Application started. Press Ctrl+C to shut down.
+INFO  10:52:55 Application started. Press Ctrl+C to shut down.
+INFO  10:52:55 Hosting environment: Development
+INFO  10:52:55 Hosting environment: Development
+INFO  10:52:55 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  10:52:55 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 10:52:56 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 10:52:56 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  07:32:15 Application started. Press Ctrl+C to shut down.
+INFO  07:32:15 Application started. Press Ctrl+C to shut down.
+INFO  07:32:15 Hosting environment: Development
+INFO  07:32:15 Hosting environment: Development
+INFO  07:32:15 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  07:32:15 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 07:32:24 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:32:24 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Get (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:16:23 Application started. Press Ctrl+C to shut down.
+INFO  11:16:23 Application started. Press Ctrl+C to shut down.
+INFO  11:16:23 Hosting environment: Development
+INFO  11:16:23 Hosting environment: Development
+INFO  11:16:23 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  11:16:23 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 11:16:31 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Find (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 11:16:31 An unhandled exception has occurred while executing the request.
+Swashbuckle.AspNetCore.SwaggerGen.SwaggerGeneratorException: Conflicting method/path combination "POST User" for actions - AuthService.Controllers.UserController.Find (AuthService),AuthService.Controllers.UserController.Login (AuthService). Actions require a unique method/path combination for Swagger/OpenAPI 3.0. Use ConflictingActionsResolver as a workaround
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GenerateOperations(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GeneratePaths(IEnumerable`1 apiDescriptions, SchemaRepository schemaRepository)
+   at Swashbuckle.AspNetCore.SwaggerGen.SwaggerGenerator.GetSwagger(String documentName, String host, String basePath)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:21:17 Application started. Press Ctrl+C to shut down.
+INFO  11:21:17 Application started. Press Ctrl+C to shut down.
+INFO  11:21:17 Hosting environment: Development
+INFO  11:21:17 Hosting environment: Development
+INFO  11:21:17 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  11:21:17 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  11:26:27 Application started. Press Ctrl+C to shut down.
+INFO  11:26:27 Application started. Press Ctrl+C to shut down.
+INFO  11:26:27 Hosting environment: Development
+INFO  11:26:27 Hosting environment: Development
+INFO  11:26:27 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  11:26:27 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  11:29:10 Application started. Press Ctrl+C to shut down.
+INFO  11:29:10 Application started. Press Ctrl+C to shut down.
+INFO  11:29:10 Hosting environment: Development
+INFO  11:29:10 Hosting environment: Development
+INFO  11:29:10 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  11:29:10 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  11:31:28 Authentication initiated for UserId 0
+INFO  11:31:30 Token Generation initiated for UserId 0
+INFO  11:39:33 Authentication initiated for UserId 0
+INFO  11:39:33 Token Generation initiated for UserId 0
+INFO  11:42:20 Authentication initiated for UserId 0
+INFO  11:42:20 Token Generation initiated for UserId 0
+INFO  12:19:42 Authentication initiated for UserId 0
+INFO  12:19:42 Token Generation initiated for UserId 0
+INFO  12:27:14 Authentication initiated for UserId 0
+INFO  12:27:15 Token Generation initiated for UserId 0
+INFO  04:14:13 Application started. Press Ctrl+C to shut down.
+INFO  04:14:13 Application started. Press Ctrl+C to shut down.
+INFO  04:14:13 Hosting environment: Development
+INFO  04:14:13 Hosting environment: Development
+INFO  04:14:13 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  04:14:13 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  04:15:40 Authentication initiated for UserId 0
+INFO  04:15:40 Token Generation initiated for UserId 0
+INFO  04:22:30 Authentication initiated for UserId 0
+INFO  04:22:30 Token Generation initiated for UserId 0
+INFO  12:38:32 Application started. Press Ctrl+C to shut down.
+INFO  12:38:32 Application started. Press Ctrl+C to shut down.
+INFO  12:38:32 Hosting environment: Development
+INFO  12:38:32 Hosting environment: Development
+INFO  12:38:32 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  12:38:32 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  12:45:59 Authentication initiated for UserId 0
+INFO  12:45:59 Token Generation initiated for UserId 0
+INFO  12:50:40 Authentication initiated for UserId 0
+INFO  12:50:40 Token Generation initiated for UserId 0
+INFO  12:55:31 Authentication initiated for UserId 0
+INFO  12:55:31 Token Generation initiated for UserId 0
+INFO  01:01:26 Authentication initiated for UserId 0
+INFO  01:01:26 Token Generation initiated for UserId 0
+INFO  01:15:10 Authentication initiated for UserId 0
+INFO  01:15:10 Token Generation initiated for UserId 0
+INFO  01:34:46 Authentication initiated for UserId 0
+INFO  01:34:46 Token Generation initiated for UserId 0
+INFO  01:43:39 Authentication initiated for UserId 0
+INFO  01:43:39 Token Generation initiated for UserId 0
+INFO  01:46:49 Authentication initiated for UserId 0
+INFO  01:46:49 Token Generation initiated for UserId 0
+INFO  01:51:31 Application started. Press Ctrl+C to shut down.
+INFO  01:51:31 Application started. Press Ctrl+C to shut down.
+INFO  01:51:31 Hosting environment: Development
+INFO  01:51:31 Hosting environment: Development
+INFO  01:51:31 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  01:51:31 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  01:52:38 Authentication initiated for UserId 0
+INFO  01:52:38 Token Generation initiated for UserId 0
+INFO  02:24:52 Application started. Press Ctrl+C to shut down.
+INFO  02:24:52 Application started. Press Ctrl+C to shut down.
+INFO  02:24:52 Hosting environment: Development
+INFO  02:24:52 Hosting environment: Development
+INFO  02:24:52 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:24:52 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:29:21 Authentication initiated for UserId 0
+INFO  02:29:21 Token Generation initiated for UserId 0
+INFO  07:20:10 Application started. Press Ctrl+C to shut down.
+INFO  07:20:10 Application started. Press Ctrl+C to shut down.
+INFO  07:20:10 Hosting environment: Development
+INFO  07:20:10 Hosting environment: Development
+INFO  07:20:10 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  07:20:10 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  07:22:25 Authentication initiated for UserId 0
+INFO  07:22:26 Token Generation initiated for UserId 0
+INFO  07:25:17 Authentication initiated for UserId 0
+INFO  07:25:17 Token Generation initiated for UserId 0
+INFO  07:32:25 Authentication initiated for UserId 0
+INFO  07:32:25 Token Generation initiated for UserId 0
+INFO  07:34:52 Authentication initiated for UserId 0
+INFO  07:34:52 Token Generation initiated for UserId 0
+INFO  07:37:07 Authentication initiated for UserId 0
+INFO  07:37:07 Token Generation initiated for UserId 0
+INFO  02:10:32 Application started. Press Ctrl+C to shut down.
+INFO  02:10:32 Application started. Press Ctrl+C to shut down.
+INFO  02:10:32 Hosting environment: Development
+INFO  02:10:32 Hosting environment: Development
+INFO  02:10:32 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:10:32 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:13:53 Application started. Press Ctrl+C to shut down.
+INFO  02:13:53 Application started. Press Ctrl+C to shut down.
+INFO  02:13:53 Hosting environment: Development
+INFO  02:13:53 Hosting environment: Development
+INFO  02:13:53 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:13:53 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 02:14:17 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Repositories.UserRepo' while attempting to activate 'AuthService.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:14:17 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Repositories.UserRepo' while attempting to activate 'AuthService.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:36:48 Application started. Press Ctrl+C to shut down.
+INFO  02:36:48 Application started. Press Ctrl+C to shut down.
+INFO  02:36:48 Hosting environment: Development
+INFO  02:36:48 Hosting environment: Development
+INFO  02:36:48 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:36:48 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 02:37:15 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Repositories.UserRepo' while attempting to activate 'AuthService.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:37:15 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Repositories.UserRepo' while attempting to activate 'AuthService.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:43:06 Application started. Press Ctrl+C to shut down.
+INFO  02:43:06 Application started. Press Ctrl+C to shut down.
+INFO  02:43:06 Hosting environment: Development
+INFO  02:43:06 Hosting environment: Development
+INFO  02:43:06 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:43:06 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 02:43:39 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Repositories.UserRepo' while attempting to activate 'AuthService.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:43:39 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Repositories.UserRepo' while attempting to activate 'AuthService.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:52:26 Application started. Press Ctrl+C to shut down.
+INFO  02:52:26 Application started. Press Ctrl+C to shut down.
+INFO  02:52:26 Hosting environment: Development
+INFO  02:52:26 Hosting environment: Development
+INFO  02:52:26 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:52:26 Content root path: C:\Users\wasim\source\repos\AuthService
+ERROR 02:52:49 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Repositories.UserRepo' while attempting to activate 'AuthService.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 02:52:49 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Unable to resolve service for type 'AuthService.Repositories.UserRepo' while attempting to activate 'AuthService.Controllers.UserController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass4_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass5_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:56:50 Application started. Press Ctrl+C to shut down.
+INFO  02:56:50 Application started. Press Ctrl+C to shut down.
+INFO  02:56:50 Hosting environment: Development
+INFO  02:56:50 Hosting environment: Development
+INFO  02:56:50 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:56:50 Content root path: C:\Users\wasim\source\repos\AuthService
+INFO  02:58:22 Authentication initiated for UserId 0
+INFO  02:58:22 Token Generation initiated for UserId 0
