@@ -31,6 +31,7 @@ namespace AuthService.Controllers
         [HttpPost("Get")]
         public User Get([FromBody]User valUser)
         {
+            _log4net.Info("Trying to get User");
             return _userRepo.Get(valUser);
         }
         [HttpPost("Login")]
@@ -42,10 +43,12 @@ namespace AuthService.Controllers
             User user = Get(login);
             if (user == null)
             {
+                _log4net.Info("User not found");
                 return NotFound();
             }
             else
             {
+                _log4net.Info("Logging in");
                 var tokenString = GenerateJSONWebToken(login);
                 response = Ok(new { token = tokenString });
                 return response;

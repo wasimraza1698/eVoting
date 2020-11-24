@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wasim\\source\\repos\\AuthServiceTest\\AuthServiceTest.csproj": {}
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthServiceTest\\AuthServiceTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wasim\\source\\repos\\AuthServiceTest\\AuthServiceTest.csproj": {
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthServiceTest\\AuthServiceTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\AuthServiceTest\\AuthServiceTest.csproj",
+        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthServiceTest\\AuthServiceTest.csproj",
         "projectName": "AuthServiceTest",
-        "projectPath": "C:\\Users\\wasim\\source\\repos\\AuthServiceTest\\AuthServiceTest.csproj",
+        "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthServiceTest\\AuthServiceTest.csproj",
         "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wasim\\source\\repos\\AuthServiceTest\\obj\\",
+        "outputPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthServiceTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\wasim\\source\\repos\\AuthService\\AuthService.csproj": {
-                "projectPath": "C:\\Users\\wasim\\source\\repos\\AuthService\\AuthService.csproj"
+              "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthService\\AuthService.csproj": {
+                "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthService\\AuthService.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\wasim\\source\\repos\\AuthService\\AuthService.csproj": {
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthService\\AuthService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\AuthService\\AuthService.csproj",
+        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthService\\AuthService.csproj",
         "projectName": "AuthService",
-        "projectPath": "C:\\Users\\wasim\\source\\repos\\AuthService\\AuthService.csproj",
+        "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthService\\AuthService.csproj",
         "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wasim\\source\\repos\\AuthService\\obj\\",
+        "outputPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",

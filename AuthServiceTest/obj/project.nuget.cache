@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "uX3Da/sB1ENHGEcqX7HZp5V9XhKFYjx61c+n07lXkw4orOBiHkk1PW2v6yy1VwK5OX+O87+ctgFHtXKKhxtaaw==",
+  "dgSpecHash": "s6h4QrznCqNL4eTRQjI9yGL6K1lEki8Fg26aZLpvrnwBmKm1uAYgaCSE0PTk98Pgqf4MHTEauJuQMfjKsxTG3Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wasim\\source\\repos\\AuthServiceTest\\AuthServiceTest.csproj",
+  "projectFilePath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\AuthServiceTest\\AuthServiceTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wasim\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\wasim\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
