@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZST9OsG77N55OWemquAt22nh7miUKk0I2nah8gcjS2QaJBD0jYh+5gqPIZ0qPjZGVC1MjSDYwXiiXmdhhC9eAA==",
+  "dgSpecHash": "mfwYRVK76qie/nAI6kMHadPMs+vFDK5lnXcRtsffSIEwqrQ/85jPnnaii0EJVzpwQif7hjLdfk+lob8Sa+JsnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wasim\\source\\repos\\eVotingClientApplication\\eVotingClientApplication.csproj",
+  "projectFilePath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\eVotingClientApplication\\eVotingClientApplication.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wasim\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
     "C:\\Users\\wasim\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

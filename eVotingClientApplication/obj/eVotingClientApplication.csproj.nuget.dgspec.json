@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wasim\\source\\repos\\eVotingClientApplication\\eVotingClientApplication.csproj": {}
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\eVotingClientApplication\\eVotingClientApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wasim\\source\\repos\\eVotingClientApplication\\eVotingClientApplication.csproj": {
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\eVotingClientApplication\\eVotingClientApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\eVotingClientApplication\\eVotingClientApplication.csproj",
+        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\eVotingClientApplication\\eVotingClientApplication.csproj",
         "projectName": "eVotingClientApplication",
-        "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingClientApplication\\eVotingClientApplication.csproj",
+        "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\eVotingClientApplication\\eVotingClientApplication.csproj",
         "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wasim\\source\\repos\\eVotingClientApplication\\obj\\",
+        "outputPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\eVotingClientApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",

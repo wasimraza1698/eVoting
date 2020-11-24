@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wasim\\source\\repos\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj": {}
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wasim\\source\\repos\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj": {
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj",
+        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj",
         "projectName": "VotingAdminServiceTest",
-        "projectPath": "C:\\Users\\wasim\\source\\repos\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj",
+        "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj",
         "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wasim\\source\\repos\\VotingAdminServiceTest\\obj\\",
+        "outputPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminServiceTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\wasim\\source\\repos\\VotingAdminService\\VotingAdminService.csproj": {
-                "projectPath": "C:\\Users\\wasim\\source\\repos\\VotingAdminService\\VotingAdminService.csproj"
+              "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminService\\VotingAdminService.csproj": {
+                "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminService\\VotingAdminService.csproj"
               }
             }
           }
@@ -81,14 +81,14 @@
         }
       }
     },
-    "C:\\Users\\wasim\\source\\repos\\VotingAdminService\\VotingAdminService.csproj": {
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminService\\VotingAdminService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\VotingAdminService\\VotingAdminService.csproj",
+        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminService\\VotingAdminService.csproj",
         "projectName": "VotingAdminService",
-        "projectPath": "C:\\Users\\wasim\\source\\repos\\VotingAdminService\\VotingAdminService.csproj",
+        "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminService\\VotingAdminService.csproj",
         "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wasim\\source\\repos\\VotingAdminService\\obj\\",
+        "outputPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,6 +118,10 @@
             "Microsoft.AspNet.WebApi.Core": {
               "target": "Package",
               "version": "[5.2.7, )"
+            },
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
             },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",

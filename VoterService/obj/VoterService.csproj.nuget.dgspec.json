@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wasim\\source\\repos\\VoterService\\VoterService.csproj": {}
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VoterService\\VoterService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wasim\\source\\repos\\VoterService\\VoterService.csproj": {
+    "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VoterService\\VoterService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\VoterService\\VoterService.csproj",
+        "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VoterService\\VoterService.csproj",
         "projectName": "VoterService",
-        "projectPath": "C:\\Users\\wasim\\source\\repos\\VoterService\\VoterService.csproj",
+        "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VoterService\\VoterService.csproj",
         "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wasim\\source\\repos\\VoterService\\obj\\",
+        "outputPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VoterService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -38,6 +38,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[3.1.10, )"
+            },
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[5.0.0, )"

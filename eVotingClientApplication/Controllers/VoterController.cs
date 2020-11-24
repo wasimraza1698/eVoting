@@ -24,7 +24,7 @@ namespace eVotingClientApplication.Controllers
             }
             else
             {
-                _log4net.Info("Voting Page");
+                _log4net.Info("Voter welcome Page");
                 return View();
             }
         }
@@ -38,7 +38,7 @@ namespace eVotingClientApplication.Controllers
             }
             else
             {
-                _log4net.Info("Contenders Page");
+                _log4net.Info("List of contenders");
                 List<Contender> contenders = new List<Contender>();
                 using (var client = new HttpClient())
                 {
@@ -77,14 +77,15 @@ namespace eVotingClientApplication.Controllers
         [HttpPost]
         public async Task<IActionResult> Vote(Vote vote)
         {
-            _log4net.Info("Voting in progress");
             if (HttpContext.Session.GetString("token") == null)
             {
+                _log4net.Info("no token found");
                 return RedirectToAction("Login", "User");
 
             }
             else
             {
+                _log4net.Info("Voting in progress. Voter id is " + vote.VoterID.ToString());
                 using (var client = new HttpClient())
                 {
                     var contentType = new MediaTypeWithQualityHeaderValue("application/json");
@@ -115,7 +116,7 @@ namespace eVotingClientApplication.Controllers
             }
             else
             {
-                _log4net.Info("Vote Page");
+                _log4net.Info("Vote addded");
                 return View();
             }
         }

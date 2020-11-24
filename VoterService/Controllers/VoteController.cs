@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using VoterService.Models;
@@ -9,6 +10,7 @@ using VoterService.Repositories;
 
 namespace VoterService.Controllers
 {
+    [Authorize]
     [Route("[controller]")]
     [ApiController]
     public class VoteController : ControllerBase

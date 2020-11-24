@@ -60,6 +60,21 @@
           "lib/net45/System.Web.Http.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.10": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.Protocols.OpenIdConnect": "5.5.0"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
       "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2743,6 +2758,7 @@
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Microsoft.AspNet.WebApi.Core": "5.2.7",
+          "Microsoft.AspNetCore.Authentication.JwtBearer": "3.1.10",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.0",
           "Microsoft.Extensions.Logging.Log4Net.AspNetCore": "5.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "3.1.4",
@@ -2846,6 +2862,21 @@
         "lib/net45/System.Web.Http.xml",
         "microsoft.aspnet.webapi.core.5.2.7.nupkg.sha512",
         "microsoft.aspnet.webapi.core.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.JwtBearer/3.1.10": {
+      "sha512": "0FwXX6sTTXBq+ZajtT9VSNNFfmzsFL7Jiy4Qj4qT5qBbUPry26V2rh8QMWn52J2+81q9u7Bm0YKfsClu22VTMA==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.jwtbearer/3.1.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.dll",
+        "lib/netcoreapp3.1/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
+        "microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Html.Abstractions/2.2.0": {
@@ -9052,11 +9083,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj",
+      "projectUniqueName": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj",
       "projectName": "VotingAdminServiceTest",
-      "projectPath": "C:\\Users\\wasim\\source\\repos\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj",
+      "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminServiceTest\\VotingAdminServiceTest.csproj",
       "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wasim\\source\\repos\\VotingAdminServiceTest\\obj\\",
+      "outputPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminServiceTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -9072,8 +9103,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\wasim\\source\\repos\\VotingAdminService\\VotingAdminService.csproj": {
-              "projectPath": "C:\\Users\\wasim\\source\\repos\\VotingAdminService\\VotingAdminService.csproj"
+            "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminService\\VotingAdminService.csproj": {
+              "projectPath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VotingAdminService\\VotingAdminService.csproj"
             }
           }
         }

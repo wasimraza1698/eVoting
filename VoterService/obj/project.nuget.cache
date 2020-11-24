@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "X7ga/+dqDkdEqjqWmat3eMLzX0oabhKfiIAL8ATG+07FN2Pk0+giGtYyAtuSV6xTidnod3IyASwYUXEiTy1E9w==",
+  "dgSpecHash": "agIpiV/LmDZPOgltfuuDpGxdhKyU6J7dVfk2N2sfinH4x62DhAwrBuqr2rJb8Rk2oLBPxSm8o/iT4GQ36EwXHA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wasim\\source\\repos\\VoterService\\VoterService.csproj",
+  "projectFilePath": "C:\\Users\\wasim\\source\\repos\\eVotingApp\\VoterService\\VoterService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wasim\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\wasim\\.nuget\\packages\\log4net\\2.0.12\\log4net.2.0.12.nupkg.sha512",
+    "C:\\Users\\wasim\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.10\\microsoft.aspnetcore.authentication.jwtbearer.3.1.10.nupkg.sha512",
     "C:\\Users\\wasim\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\wasim\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\wasim\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

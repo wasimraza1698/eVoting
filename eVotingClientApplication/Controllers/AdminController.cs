@@ -24,7 +24,7 @@ namespace eVotingClientApplication.Controllers
             }
             else
             {
-                _log4net.Info("Admin Page");
+                _log4net.Info("Admin welcome Page");
                 return View();
             }
         }
@@ -46,7 +46,7 @@ namespace eVotingClientApplication.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> AddContender(Contender contender)
         {
-            _log4net.Info("Adding Contender in progress"+contender.ContenderName);
+            _log4net.Info("Adding Contender in progress"+contender.ContenderID);
             if (HttpContext.Session.GetString("token") == null)
             {
                 return RedirectToAction("Login", "User");
@@ -65,7 +65,7 @@ namespace eVotingClientApplication.Controllers
                     {
                         string apiResponse = await response.Content.ReadAsStringAsync();
                         contender = JsonConvert.DeserializeObject<Contender>(apiResponse);
-                        _log4net.Info("Contender with Name - " +contender.ContenderName+" Added");
+                        _log4net.Info("Contender with Name - " +contender.ContenderID+" Added");
                     }
                 }
                 return RedirectToAction("Success");
@@ -83,7 +83,7 @@ namespace eVotingClientApplication.Controllers
             }
             else
             {
-                _log4net.Info("Admin Page");
+                _log4net.Info("Added successfully");
                 return View();
             }
         }

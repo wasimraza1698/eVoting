@@ -16,12 +16,13 @@ namespace eVotingClientApplication.Controllers
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(UserController));
         public IActionResult Login()
         {
+            _log4net.Info("Login Page");
             return View();
         }
         [HttpPost]
         public async Task<IActionResult> Login(User user)
         {
-            _log4net.Info("User Login");
+            _log4net.Info("Trying to Logging");
             User item;
             using (var httpClient = new HttpClient())
             {
@@ -35,15 +36,13 @@ namespace eVotingClientApplication.Controllers
                     _log4net.Info(response1.Content.ReadAsStringAsync().Result);
                     if (!response1.IsSuccessStatusCode)
                     {
-                        _log4net.Info("Again User Login");
                         return RedirectToAction("Login");
                     }
                     else
                     {
                         if (user.UserName == "Admin")
                         {
-                            _log4net.Info("into Admin");
-                            //string apiResponse1 = await response1.Content.ReadAsStringAsync();
+                            _log4net.Info("Admin logged in");
                             string stringJWT = response1.Content.ReadAsStringAsync().Result;
                             JWT jwt = JsonConvert.DeserializeObject<JWT>(stringJWT);
 
@@ -57,6 +56,7 @@ namespace eVotingClientApplication.Controllers
                         }
                         else
                         {
+                            _log4net.Info("Voter Logged in");
                             string apiResponse1 = await response1.Content.ReadAsStringAsync();
                             string stringJWT = response1.Content.ReadAsStringAsync().Result;
                             JWT jwt = JsonConvert.DeserializeObject<JWT>(stringJWT);

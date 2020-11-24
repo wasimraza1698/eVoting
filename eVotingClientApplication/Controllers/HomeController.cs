@@ -11,15 +11,11 @@ namespace eVotingClientApplication.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(HomeController));
 
         public IActionResult Index()
         {
+            _log4net.Info("Home Page");
             return View();
         }
 

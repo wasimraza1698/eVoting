@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -11,6 +12,7 @@ using VotingAdminService.Repositories;
 
 namespace VotingAdminService.Controllers
 {
+    [Authorize]
     [Route("[controller]")]
     [ApiController]
     public class ContenderController : ControllerBase
@@ -77,7 +79,7 @@ namespace VotingAdminService.Controllers
             }
             catch
             {
-                _log4net.Error("Error in Adding Contender Details " + "ContenderID is " + contender.ContenderID.ToString());
+                _log4net.Error("Error in Adding Contender Details " + "ContenderID is " + (contender.ContenderID +1).ToString());
                 return new NoContentResult();
             }
         }

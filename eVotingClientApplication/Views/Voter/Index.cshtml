@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Index";
 }
-
+@Html.ActionLink("Logout", "Logout", "User", null, new { @class = "btn btn-primary" })
 <h1>Welcome Voter</h1>
-@Html.ActionLink("Vote","Contenders","Voter",null,new {@class="btn btn-primary"})
+@Html.ActionLink("Vote", "Contenders", "Voter", null, new { @class = "btn btn-primary" })
 

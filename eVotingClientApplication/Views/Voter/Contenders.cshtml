@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "Contenders";
 }
-
+@Html.ActionLink("Logout", "Logout", "User", null, new { @class = "btn btn-primary" })
 <h1>Contenders</h1>
 
 <table class="table">
@@ -21,18 +21,19 @@
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.ContenderID)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ContenderName)
-            </td>
-            <td>
-                <a class="btn btn-primary" href="@Url.Action("Vote","Voter",new { id = item.ContenderID })">Vote</a>
-            </td>
-        </tr>
-}
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContenderID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ContenderName)
+                </td>
+                <td>
+                    <a class="btn btn-primary" href="@Url.Action("Vote","Voter",new { id = item.ContenderID })">Vote</a>
+                </td>
+            </tr>
+        }
     </tbody>
 </table>
