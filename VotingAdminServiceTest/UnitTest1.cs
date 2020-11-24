@@ -43,29 +43,36 @@ namespace VotingAdminServiceTest
         [Test]
         public void GetAllTest()
         {
-            var conts = contRepo.GetAll();
-            Assert.AreEqual(contenders.Count, conts.Count());
+            var controller = new ContenderController(contRepo);
+            var response = controller.GetAll() as OkObjectResult;
+            Assert.IsNotNull(response);
+            Assert.AreEqual(200,response.StatusCode);
+            Assert.IsInstanceOf<List<Contender>>(response.Value);
         }
 
         [Test]
         public void GetById()
         {
-            var cont = contRepo.GetByID(2);
-            Assert.IsNotNull(cont);
+            var controller = new ContenderController(contRepo);
+            var response = controller.GetById(2) as OkObjectResult;
+            Assert.IsNotNull(response);
+            Assert.AreEqual(200,response.StatusCode);
+            Assert.IsInstanceOf<Contender>(response.Value);
         }
 
         [Test]
         public void GetByIdFail()
         {
-            var cont = contRepo.GetByID(17);
-            Assert.IsNull(cont);
+            var controller = new ContenderController(contRepo);
+            var response = controller.GetById(17) as NoContentResult;
+            Assert.AreEqual(204,response.StatusCode);
         }
         [Test]
         public void Addtest()
         {
-            var cont = new Contender(){ContenderID = 17,ContenderName = "KDB"};
-            var added = contRepo.Add(cont);
-            Assert.AreEqual(true,added);
+           var controller = new ContenderController(contRepo);
+           var response = controller.Add(new Contender(){ContenderID = 4,ContenderName = "xyz"})as StatusCodeResult;
+           Assert.AreEqual(201,response.StatusCode);
         }
 
     }

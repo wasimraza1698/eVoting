@@ -31,9 +31,20 @@ namespace VoterService.Controllers
         {
             try
             {
-                _log4net.Info("Vote Getting Added - " + "Vote Id is " + (vote.VoteID + 1).ToString());
-                var added = _voterRepo.CastVote(vote);
-                return CreatedAtAction(nameof(Add), new { id = vote.VoteID }, vote);
+                if (ModelState.IsValid)
+                {
+                    _log4net.Info("Vote Getting Added - " + "Vote Id is " + (vote.VoteID + 1).ToString());
+                    var added = _voterRepo.CastVote(vote);
+                    if (added)
+                    {
+                        return StatusCode(201);
+                    }
+                    else
+                    {
+                        return new NoContentResult();
+                    }
+                }
+                return StatusCode(400);
             }
             catch
             {

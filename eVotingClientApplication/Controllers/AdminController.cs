@@ -63,9 +63,7 @@ namespace eVotingClientApplication.Controllers
 
                     using (var response = await client.PostAsync("https://localhost:44349/Contender/Add", content))
                     {
-                        string apiResponse = await response.Content.ReadAsStringAsync();
-                        contender = JsonConvert.DeserializeObject<Contender>(apiResponse);
-                        _log4net.Info("Contender with Name - " +contender.ContenderID+" Added");
+                        _log4net.Info("Contender with Name - " +contender.ContenderName+" Added");
                     }
                 }
                 return RedirectToAction("Success");

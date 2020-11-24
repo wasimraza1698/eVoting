@@ -291,3 +291,7 @@ C:\Users\wasim\source\repos\eVotingApp\VotingAdminService\obj\Debug\netcoreapp3.
 C:\Users\wasim\source\repos\eVotingApp\VotingAdminService\obj\Debug\netcoreapp3.1\VotingAdminService.dll
 C:\Users\wasim\source\repos\eVotingApp\VotingAdminService\obj\Debug\netcoreapp3.1\VotingAdminService.pdb
 C:\Users\wasim\source\repos\eVotingApp\VotingAdminService\obj\Debug\netcoreapp3.1\VotingAdminService.genruntimeconfig.cache
+C:\Users\wasim\source\repos\eVotingApp\VotingAdminService\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\wasim\source\repos\eVotingApp\VotingAdminService\obj\Debug\netcoreapp3.1\VotingAdminService.csproj.CoreCompileInputs.cache
+C:\Users\wasim\source\repos\eVotingApp\VotingAdminService\obj\Debug\netcoreapp3.1\VotingAdminService.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\wasim\source\repos\eVotingApp\VotingAdminService\obj\Debug\netcoreapp3.1\VotingAdminService.MvcApplicationPartsAssemblyInfo.cache

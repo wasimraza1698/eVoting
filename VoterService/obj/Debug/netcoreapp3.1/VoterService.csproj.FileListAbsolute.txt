@@ -275,7 +275,6 @@ C:\Users\wasim\source\repos\eVotingApp\VoterService\bin\Debug\netcoreapp3.1\runt
 C:\Users\wasim\source\repos\eVotingApp\VoterService\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.pdb
 C:\Users\wasim\source\repos\eVotingApp\VoterService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\wasim\source\repos\eVotingApp\VoterService\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
-C:\Users\wasim\source\repos\eVotingApp\VoterService\obj\Debug\netcoreapp3.1\VoterService.csprojAssemblyReference.cache
 C:\Users\wasim\source\repos\eVotingApp\VoterService\obj\Debug\netcoreapp3.1\VoterService.AssemblyInfoInputs.cache
 C:\Users\wasim\source\repos\eVotingApp\VoterService\obj\Debug\netcoreapp3.1\VoterService.AssemblyInfo.cs
 C:\Users\wasim\source\repos\eVotingApp\VoterService\obj\Debug\netcoreapp3.1\VoterService.RazorTargetAssemblyInfo.cache
@@ -289,3 +288,4 @@ C:\Users\wasim\source\repos\eVotingApp\VoterService\bin\Debug\netcoreapp3.1\Micr
 C:\Users\wasim\source\repos\eVotingApp\VoterService\obj\Debug\netcoreapp3.1\VoterService.csproj.CoreCompileInputs.cache
 C:\Users\wasim\source\repos\eVotingApp\VoterService\obj\Debug\netcoreapp3.1\VoterService.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\wasim\source\repos\eVotingApp\VoterService\obj\Debug\netcoreapp3.1\VoterService.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\wasim\source\repos\eVotingApp\VoterService\obj\Debug\netcoreapp3.1\VoterService.csprojAssemblyReference.cache

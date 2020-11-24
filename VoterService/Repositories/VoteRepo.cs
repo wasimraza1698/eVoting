@@ -16,9 +16,16 @@ namespace VoterService.Repositories
         }
         public bool CastVote(Vote vote)
         {
-            _context.Votes.Add(vote);
-            _context.SaveChanges();
-            return true;
+            try
+            {
+                _context.Votes.Add(vote);
+                _context.SaveChanges();
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
         }
     }
 }

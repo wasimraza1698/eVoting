@@ -31,8 +31,12 @@ namespace VotingAdminService.Controllers
             try
             {
                 _log4net.Info("Getting all Contenders");
-                var contender = _contenderRepo.GetAll();
-                return Ok(contender);
+                var contenders = _contenderRepo.GetAll();
+                if (contenders != null)
+                {
+                    return Ok(contenders);
+                }
+                return new NoContentResult();
 
             }
             catch
@@ -50,7 +54,11 @@ namespace VotingAdminService.Controllers
             {
                 _log4net.Info("Getting Contender by Id" + "(" + id.ToString() + ")");
                 var contender = _contenderRepo.GetByID(id);
-                return new OkObjectResult(contender);
+                if (contender != null)
+                {
+                    return new OkObjectResult(contender);
+                }
+                return new NoContentResult();
             }
             catch
             {
@@ -72,7 +80,14 @@ namespace VotingAdminService.Controllers
                 if (ModelState.IsValid)
                 {
                     var added = _contenderRepo.Add(contender);
-                    return CreatedAtAction(nameof(Add), new { id = contender.ContenderID }, contender);
+                    if (added)
+                    {
+                        return StatusCode(201);
+                    }
+                    else
+                    {
+                        return new NoContentResult();
+                    }
                 }
                 return BadRequest();
 

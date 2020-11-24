@@ -579,3 +579,52 @@ INFO  07:37:29 StatusCode: 201, ReasonPhrase: 'Created', Version: 1.1, Content: 
 }
 INFO  07:37:29 {"voteID":5,"voterID":0,"contenderID":0}
 INFO  07:37:29 Vote Page
+INFO  11:30:03 Application started. Press Ctrl+C to shut down.
+INFO  11:30:03 Application started. Press Ctrl+C to shut down.
+INFO  11:30:03 Hosting environment: Development
+INFO  11:30:03 Hosting environment: Development
+INFO  11:30:03 Content root path: C:\Users\wasim\source\repos\eVotingApp\eVotingClientApplication
+INFO  11:30:03 Content root path: C:\Users\wasim\source\repos\eVotingApp\eVotingClientApplication
+INFO  11:30:03 Home Page
+INFO  11:30:06 Login Page
+INFO  11:30:08 Trying to Logging
+INFO  11:30:08 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYyNDI2MDgsImlzcyI6Ildhc2ltIn0.LBs_UsYgO9PSP1sVCLXOOYeeo4AvwMWfBSUfWWHJhr0"}
+INFO  11:30:08 Voter Logged in
+INFO  11:30:09 Voter welcome Page
+INFO  11:30:10 List of contenders
+INFO  11:30:13 Vote Page
+INFO  11:30:14 Voting in progress. Voter id is 0
+INFO  11:30:14 StatusCode: 201, ReasonPhrase: 'Created', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Tue, 24 Nov 2020 18:00:14 GMT
+}
+INFO  11:30:14 
+INFO  11:30:14 Vote addded
+INFO  11:30:17 User Log Out
+INFO  11:32:28 Application started. Press Ctrl+C to shut down.
+INFO  11:32:28 Application started. Press Ctrl+C to shut down.
+INFO  11:32:28 Hosting environment: Development
+INFO  11:32:28 Hosting environment: Development
+INFO  11:32:28 Content root path: C:\Users\wasim\source\repos\eVotingApp\eVotingClientApplication
+INFO  11:32:28 Content root path: C:\Users\wasim\source\repos\eVotingApp\eVotingClientApplication
+INFO  11:32:28 Home Page
+INFO  11:32:32 Login Page
+INFO  11:32:34 Trying to Logging
+INFO  11:32:35 {"token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2MDYyNDI3NTUsImlzcyI6Ildhc2ltIn0.4oj6ZNxwTn8FGiFOoP0OoGqrqBLxQHhJ7U84VYBb6WE"}
+INFO  11:32:35 Voter Logged in
+INFO  11:32:36 Voter welcome Page
+INFO  11:32:37 List of contenders
+INFO  11:32:40 Vote Page
+INFO  11:32:42 Voting in progress. Voter id is 2
+INFO  11:32:42 StatusCode: 201, ReasonPhrase: 'Created', Version: 1.1, Content: System.Net.Http.HttpConnectionResponseContent, Headers:
+{
+  Transfer-Encoding: chunked
+  Server: Microsoft-IIS/10.0
+  X-Powered-By: ASP.NET
+  Date: Tue, 24 Nov 2020 18:02:42 GMT
+}
+INFO  11:32:42 
+INFO  11:32:42 Vote addded

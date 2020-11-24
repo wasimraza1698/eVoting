@@ -1,16 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AuthService.Data;
-using AuthService.Models;
+﻿using AuthService.Models;
 using AuthService.Repositories;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
+using System;
+using System.IdentityModel.Tokens.Jwt;
+using System.Text;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -23,35 +18,54 @@ namespace AuthService.Controllers
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(UserController));
         public readonly IUserRepo _userRepo;
         private readonly IConfiguration _config;
+
         public UserController(IUserRepo userRepo, IConfiguration config)
         {
             _userRepo = userRepo;
             _config = config;
         }
-        [HttpPost("Get")]
-        public User Get([FromBody]User valUser)
-        {
-            _log4net.Info("Trying to get User");
-            return _userRepo.Get(valUser);
-        }
-        [HttpPost("Login")]
-        public IActionResult Login([FromBody]User login)
-        {
 
-            _log4net.Info("Authentication initiated for UserId " + login.UserID.ToString());
-            IActionResult response = Unauthorized();
-            User user = Get(login);
-            if (user == null)
+        [HttpPost("Get")]
+        public IActionResult Get(User user)
+        {
+            User valUser = _userRepo.Get(user);
+            if (valUser == null)
             {
-                _log4net.Info("User not found");
                 return NotFound();
             }
-            else
+
+            return Ok(valUser);
+        }
+
+        [HttpPost("Login")]
+        public IActionResult Login(User user)
+        {
+
+            try
             {
-                _log4net.Info("Logging in");
-                var tokenString = GenerateJSONWebToken(login);
-                response = Ok(new { token = tokenString });
-                return response;
+                _log4net.Info("Authentication initiated for UserId " + user.UserID.ToString());
+                if (ModelState.IsValid)
+                {
+                    IActionResult response;
+                    User valUser = _userRepo.Get(user);
+                    if (valUser == null)
+                    {
+                        _log4net.Info("User not found");
+                        return NotFound();
+                    }
+                    else
+                    {
+                        _log4net.Info("Logging in user with id "+valUser.UserID.ToString());
+                        var tokenString = GenerateJSONWebToken(valUser);
+                        response = Ok(new { token = tokenString });
+                        return response;
+                    }
+                }
+                return BadRequest();
+            }
+            catch
+            {
+                return new NoContentResult();
             }
         }
         private string GenerateJSONWebToken(User user)

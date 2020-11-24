@@ -18,7 +18,7 @@ namespace AuthServiceTest
         IQueryable<User> userdata;
         Mock<DbSet<User>> mockSet;
         Mock<AuthDbContext> usercontextmock;
-        Mock<UserRepo> userRepo;
+        Mock<IConfiguration> config;
         [SetUp]
         public void Setup()
         {
@@ -36,29 +36,25 @@ namespace AuthServiceTest
             var p = new DbContextOptions<AuthDbContext>();
             usercontextmock = new Mock<AuthDbContext>(p);
             usercontextmock.Setup(x => x.Users).Returns(mockSet.Object);
+            config = new Mock<IConfiguration>();
+            config.Setup(p => p["Jwt:Key"]).Returns("SecretKeyForEncryption");
         }
 
 
         [Test]
         public void LoginTest()
         {
-            Mock<IConfiguration> config = new Mock<IConfiguration>();
-            config.Setup(p => p["Jwt:Key"]).Returns("SecretKeyForEncryption");
-            userRepo = new Mock<UserRepo>(usercontextmock.Object);
-            var controller = new UserController(userRepo.Object, config.Object);
+            var userRepo = new UserRepo(usercontextmock.Object);
+            var controller = new UserController(userRepo, config.Object);
             var auth = controller.Login(new User { UserID = 1, UserName = "abc", Password = "abc123" }) as OkObjectResult;
             Assert.AreEqual(200, auth.StatusCode);
         }
         [Test]
         public void LoginTestFail()
         {
-
-            Mock<IConfiguration> config = new Mock<IConfiguration>();
-            config.Setup(p => p["Jwt:Key"]).Returns("SecretKeyForEncryption");
-            userRepo = new Mock<UserRepo>(usercontextmock.Object);
-            var controller = new UserController(userRepo.Object, config.Object);
+            var userRepo = new UserRepo(usercontextmock.Object);
+            var controller = new UserController(userRepo, config.Object);
             var auth = controller.Login(new User { UserID = 1, UserName = "abc", Password = "c123" }) as OkObjectResult;
-
             Assert.IsNull(auth);
         }
     }

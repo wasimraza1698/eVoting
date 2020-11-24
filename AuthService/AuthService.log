@@ -400,3 +400,62 @@ INFO  02:56:50 Content root path: C:\Users\wasim\source\repos\AuthService
 INFO  02:56:50 Content root path: C:\Users\wasim\source\repos\AuthService
 INFO  02:58:22 Authentication initiated for UserId 0
 INFO  02:58:22 Token Generation initiated for UserId 0
+INFO  08:05:34 Application started. Press Ctrl+C to shut down.
+INFO  08:05:34 Application started. Press Ctrl+C to shut down.
+INFO  08:05:34 Hosting environment: Development
+INFO  08:05:34 Hosting environment: Development
+INFO  08:05:34 Content root path: C:\Users\wasim\source\repos\eVotingApp\AuthService
+INFO  08:05:34 Content root path: C:\Users\wasim\source\repos\eVotingApp\AuthService
+INFO  08:05:57 Authentication initiated for UserId 0
+INFO  08:06:00 Logging in user with id 3
+INFO  08:06:00 Token Generation initiated for UserId 3
+INFO  08:06:53 Authentication initiated for UserId 0
+INFO  08:06:53 User not found
+INFO  08:07:12 Authentication initiated for UserId 2
+INFO  08:07:12 Logging in user with id 3
+INFO  08:07:12 Token Generation initiated for UserId 3
+INFO  10:23:07 Application started. Press Ctrl+C to shut down.
+INFO  10:23:07 Application started. Press Ctrl+C to shut down.
+INFO  10:23:07 Hosting environment: Development
+INFO  10:23:07 Hosting environment: Development
+INFO  10:23:07 Content root path: C:\Users\wasim\source\repos\eVotingApp\AuthService
+INFO  10:23:07 Content root path: C:\Users\wasim\source\repos\eVotingApp\AuthService
+INFO  10:26:30 Authentication initiated for UserId 0
+INFO  10:26:30 Logging in user with id 2
+INFO  10:26:30 Token Generation initiated for UserId 2
+INFO  10:39:15 Authentication initiated for UserId 0
+INFO  10:39:15 Logging in user with id 2
+INFO  10:39:15 Token Generation initiated for UserId 2
+INFO  10:46:52 Authentication initiated for UserId 0
+INFO  10:46:52 Logging in user with id 3
+INFO  10:46:52 Token Generation initiated for UserId 3
+INFO  10:56:06 Authentication initiated for UserId 0
+INFO  10:56:06 Logging in user with id 3
+INFO  10:56:06 Token Generation initiated for UserId 3
+INFO  10:56:48 Authentication initiated for UserId 0
+INFO  10:56:48 Logging in user with id 2
+INFO  10:56:48 Token Generation initiated for UserId 2
+INFO  11:01:36 Authentication initiated for UserId 0
+INFO  11:01:36 Logging in user with id 2
+INFO  11:01:36 Token Generation initiated for UserId 2
+INFO  11:02:16 Authentication initiated for UserId 0
+INFO  11:02:16 Logging in user with id 2
+INFO  11:02:16 Token Generation initiated for UserId 2
+INFO  11:04:16 Authentication initiated for UserId 0
+INFO  11:04:16 Logging in user with id 3
+INFO  11:04:16 Token Generation initiated for UserId 3
+INFO  11:04:30 Authentication initiated for UserId 0
+INFO  11:04:30 Logging in user with id 2
+INFO  11:04:30 Token Generation initiated for UserId 2
+INFO  11:08:54 Authentication initiated for UserId 0
+INFO  11:08:54 Logging in user with id 2
+INFO  11:08:54 Token Generation initiated for UserId 2
+INFO  11:20:22 Authentication initiated for UserId 0
+INFO  11:20:22 Logging in user with id 2
+INFO  11:20:22 Token Generation initiated for UserId 2
+INFO  11:30:08 Authentication initiated for UserId 0
+INFO  11:30:08 Logging in user with id 2
+INFO  11:30:08 Token Generation initiated for UserId 2
+INFO  11:32:35 Authentication initiated for UserId 0
+INFO  11:32:35 Logging in user with id 2
+INFO  11:32:35 Token Generation initiated for UserId 2

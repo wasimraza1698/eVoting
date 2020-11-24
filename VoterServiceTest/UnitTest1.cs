@@ -19,13 +19,13 @@ namespace VoterServiceTest
         IQueryable<Vote> votedata;
         Mock<DbSet<Vote>> mockSet;
         Mock<VoterDbContext> votecontextmock;
-        VoteRepo voteRepo;
         [SetUp]
         public void Setup()
         {
             user = new List<Vote>()
             {
-                new Vote{VoteID=1,VoterID = 1,ContenderID = 2}
+                new Vote{VoteID=1,VoterID = 1,ContenderID = 2},
+                new Vote{VoteID=2,VoterID = 2,ContenderID = 4}
 
             };
             votedata = user.AsQueryable();
@@ -37,15 +37,24 @@ namespace VoterServiceTest
             var p = new DbContextOptions<VoterDbContext>();
             votecontextmock = new Mock<VoterDbContext>(p);
             votecontextmock.Setup(x => x.Votes).Returns(mockSet.Object);
-            voteRepo = new VoteRepo(votecontextmock.Object);
         }
 
         [Test]
         public void AddVotePass()
         {
-            var vote = new Vote() {VoteID = 2, VoterID = 3, ContenderID = 4};
-            var added = voteRepo.CastVote(vote);
-            Assert.AreEqual(true,added);
+            VoteRepo voteRepo = new VoteRepo(votecontextmock.Object);
+            var controller = new VoteController(voteRepo);
+            var response = controller.Add(new Vote() {VoteID = 3, VoterID = 3, ContenderID = 2}) as StatusCodeResult;
+            Assert.AreEqual(201,response.StatusCode);
         }
+
+        /*[Test]
+        public void AddVoteFail()
+        {
+            VoteRepo voteRepo = new VoteRepo(votecontextmock.Object);
+            var controller = new VoteController(voteRepo);
+            var response = controller.Add(new Vote() {VoterID = 3, ContenderID = 2 }) as StatusCodeResult;
+            Assert.AreEqual(400, response.StatusCode);
+        }*/
     }
 }
